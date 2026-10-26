@@ -1,5 +1,7 @@
 # pydantic-ai MCP telemetry leak (GHSA-xv4x-g8mx-ch56)
 
+> 📖 **Read the write-up:** [include_content=False Didn't Stop pydantic-ai's MCP Token Leak](https://webofmike.com/pydantic-ai-mcp-telemetry-leak/)
+
 Reproduces a security advisory patched in `pydantic-ai-slim` 2.58.0 / 1.107.8
 (released 2026-10-19): a provider-native MCP connection's server URL,
 authorization token, and custom header values could land in plaintext inside
